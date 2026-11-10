@@ -1,7 +1,7 @@
 <img src="./stars-header.svg" width="100%"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=2800&pause=800&color=00B4FF&center=true&vCenter=true&width=650&height=40&lines=%3E+Estudiante+de+Ingenieria+en+Ciberseguridad;%3E+Aprendiendo+Python+paso+a+paso;%3E+Proximo%3A+SQL%2C+Docker%2C+Java%2C+C%2B%2B;%3E+Hecho+en+Colombia" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=2800&pause=800&color=00B4FF&center=true&vCenter=true&width=650&height=40&lines=%3E+Estudiante+de+Ingenieria+en+Ciberseguridad;%3E+Proximo%3A+SQL%2C+Docker%2C+Java%2C+C%2B%2B;%3E+Hecho+en+Colombia" />
 </p>
 
 <p align="center">
