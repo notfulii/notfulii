@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" shape-rendering="crispEdges">
+<style>
+@keyframes tw{0%,100%{opacity:1}50%{opacity:.15}}
+.shoot{animation:shoot 6s linear infinite}
+@keyframes shoot{0%{transform:translate(-200px,-40px);opacity:0}5%{opacity:1}25%{transform:translate(1100px,180px);opacity:0}100%{transform:translate(1100px,180px);opacity:0}}
+.title{font:900 78px 'Courier New',Consolas,monospace;letter-spacing:0}
+.sub{font:700 20px 'Courier New',Consolas,monospace;letter-spacing:4px}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+</style>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#030712"/><stop offset=".65" stop-color="#0a1f4a"/><stop offset="1" stop-color="#0a2a5c"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1000" height="280" fill="url(#sky)"/>
+<rect class="tw" x="404" y="24" width="2" height="2" fill="#ffffff" style="animation:tw 2.4s steps(3) -0.2s infinite"/>
+<rect class="tw" x="36" y="44" width="4" height="4" fill="#cfe9ff" style="animation:tw 1.7s steps(3) -0.4s infinite"/>
+<rect class="tw" x="432" y="28" width="4" height="4" fill="#ffffff" style="animation:tw 3.9s steps(3) -2.5s infinite"/>
+<rect class="tw" x="596" y="28" width="4" height="4" fill="#cfe9ff" style="animation:tw 1.6s steps(3) -0.9s infinite"/>
+<rect class="tw" x="568" y="68" width="2" height="2" fill="#cfe9ff" style="animation:tw 1.9s steps(3) -0.5s infinite"/>
+<rect class="tw" x="104" y="96" width="2" height="2" fill="#ffffff" style="animation:tw 2.9s steps(3) -0.3s infinite"/>
+<rect class="tw" x="60" y="104" width="4" height="4" fill="#cfe9ff" style="animation:tw 3.4s steps(3) -1.9s infinite"/>
+<rect class="tw" x="944" y="232" width="2" height="2" fill="#00b4ff" style="animation:tw 2.1s steps(3) -0.7s infinite"/>
+<rect class="tw" x="796" y="124" width="2" height="2" fill="#00b4ff" style="animation:tw 2.8s steps(3) -3.5s infinite"/>
+<rect class="tw" x="744" y="228" width="2" height="2" fill="#ffffff" style="animation:tw 1.8s steps(3) -1.7s infinite"/>
+<rect class="tw" x="772" y="172" width="2" height="2" fill="#cfe9ff" style="animation:tw 2.6s steps(3) -3.8s infinite"/>
+<rect class="tw" x="76" y="160" width="2" height="2" fill="#00b4ff" style="animation:tw 3.0s steps(3) -2.3s infinite"/>
+<rect class="tw" x="464" y="32" width="2" height="2" fill="#00b4ff" style="animation:tw 2.7s steps(3) -2.7s infinite"/>
+<rect class="tw" x="60" y="156" width="4" height="4" fill="#cfe9ff" style="animation:tw 2.2s steps(3) -1.5s infinite"/>
+<rect class="tw" x="20" y="236" width="2" height="2" fill="#9fdcff" style="animation:tw 3.0s steps(3) -2.0s infinite"/>
+<rect class="tw" x="220" y="144" width="2" height="2" fill="#9fdcff" style="animation:tw 2.5s steps(3) -3.7s infinite"/>
+<rect class="tw" x="508" y="40" width="2" height="2" fill="#cfe9ff" style="animation:tw 2.5s steps(3) -1.1s infinite"/>
+<rect class="tw" x="140" y="220" width="4" height="4" fill="#00b4ff" style="animation:tw 3.3s steps(3) -3.9s infinite"/>
+<rect class="tw" x="980" y="116" width="2" height="2" fill="#ffffff" style="animation:tw 1.9s steps(3) -0.9s infinite"/>
+<rect class="tw" x="236" y="4" width="4" height="4" fill="#9fdcff" style="animation:tw 2.2s steps(3) -0.0s infinite"/>
+<rect class="tw" x="428" y="272" width="2" height="2" fill="#00b4ff" style="animation:tw 3.9s steps(3) -2.8s infinite"/>
+<rect class="tw" x="524" y="24" width="4" height="4" fill="#cfe9ff" style="animation:tw 2.5s steps(3) -1.6s infinite"/>
+<rect class="tw" x="60" y="96" width="2" height="2" fill="#9fdcff" style="animation:tw 2.6s steps(3) -0.4s infinite"/>
+<rect class="tw" x="612" y="24" width="2" height="2" fill="#ffffff" style="animation:tw 2.9s steps(3) -2.1s infinite"/>
+<rect class="tw" x="968" y="184" width="4" height="4" fill="#ffffff" style="animation:tw 1.7s steps(3) -0.8s infinite"/>
+<rect class="tw" x="976" y="176" width="4" height="4" fill="#00b4ff" style="animation:tw 2.7s steps(3) -0.5s infinite"/>
+<rect class="tw" x="496" y="236" width="4" height="4" fill="#cfe9ff" style="animation:tw 2.3s steps(3) -0.6s infinite"/>
+<rect class="tw" x="528" y="8" width="2" height="2" fill="#00b4ff" style="animation:tw 1.9s steps(3) -2.2s infinite"/>
+<rect class="tw" x="24" y="268" width="2" height="2" fill="#ffffff" style="animation:tw 3.2s steps(3) -1.0s infinite"/>
+<rect class="tw" x="544" y="276" width="4" height="4" fill="#00b4ff" style="animation:tw 3.1s steps(3) -2.5s infinite"/>
+<rect class="tw" x="804" y="96" width="2" height="2" fill="#cfe9ff" style="animation:tw 3.3s steps(3) -0.9s infinite"/>
+<rect class="tw" x="528" y="252" width="2" height="2" fill="#ffffff" style="animation:tw 4.0s steps(3) -3.2s infinite"/>
+<rect class="tw" x="196" y="176" width="4" height="4" fill="#00b4ff" style="animation:tw 3.9s steps(3) -1.5s infinite"/>
+<rect class="tw" x="224" y="52" width="2" height="2" fill="#cfe9ff" style="animation:tw 2.0s steps(3) -0.8s infinite"/>
+<rect class="tw" x="636" y="0" width="4" height="4" fill="#00b4ff" style="animation:tw 3.5s steps(3) -0.3s infinite"/>
+<rect class="tw" x="676" y="60" width="4" height="4" fill="#9fdcff" style="animation:tw 2.7s steps(3) -0.7s infinite"/>
+<rect class="tw" x="808" y="168" width="2" height="2" fill="#cfe9ff" style="animation:tw 2.7s steps(3) -3.0s infinite"/>
+<rect class="tw" x="84" y="80" width="2" height="2" fill="#9fdcff" style="animation:tw 1.6s steps(3) -2.4s infinite"/>
+<rect class="tw" x="624" y="240" width="2" height="2" fill="#9fdcff" style="animation:tw 2.9s steps(3) -0.5s infinite"/>
+<rect class="tw" x="12" y="52" width="4" height="4" fill="#9fdcff" style="animation:tw 2.6s steps(3) -3.5s infinite"/>
+<rect class="tw" x="844" y="108" width="2" height="2" fill="#00b4ff" style="animation:tw 2.0s steps(3) -2.0s infinite"/>
+<rect class="tw" x="780" y="164" width="2" height="2" fill="#cfe9ff" style="animation:tw 3.6s steps(3) -0.2s infinite"/>
+<rect class="tw" x="916" y="232" width="4" height="4" fill="#cfe9ff" style="animation:tw 3.6s steps(3) -3.5s infinite"/>
+<rect class="tw" x="132" y="272" width="2" height="2" fill="#ffffff" style="animation:tw 3.7s steps(3) -3.1s infinite"/>
+<rect class="tw" x="620" y="0" width="2" height="2" fill="#9fdcff" style="animation:tw 1.9s steps(3) -2.5s infinite"/>
+<rect class="tw" x="120" y="28" width="2" height="2" fill="#cfe9ff" style="animation:tw 3.5s steps(3) -0.4s infinite"/>
+<rect class="tw" x="572" y="28" width="2" height="2" fill="#9fdcff" style="animation:tw 2.2s steps(3) -3.1s infinite"/>
+<rect class="tw" x="516" y="228" width="4" height="4" fill="#ffffff" style="animation:tw 3.4s steps(3) -3.6s infinite"/>
+<rect class="tw" x="624" y="256" width="4" height="4" fill="#9fdcff" style="animation:tw 3.2s steps(3) -1.8s infinite"/>
+<rect class="tw" x="544" y="244" width="4" height="4" fill="#9fdcff" style="animation:tw 3.2s steps(3) -3.5s infinite"/>
+<rect class="tw" x="964" y="132" width="4" height="4" fill="#9fdcff" style="animation:tw 3.6s steps(3) -0.5s infinite"/>
+<rect class="tw" x="124" y="200" width="4" height="4" fill="#00b4ff" style="animation:tw 1.7s steps(3) -1.0s infinite"/>
+<rect class="tw" x="72" y="108" width="2" height="2" fill="#ffffff" style="animation:tw 3.7s steps(3) -0.6s infinite"/>
+<rect class="tw" x="144" y="128" width="2" height="2" fill="#cfe9ff" style="animation:tw 2.0s steps(3) -3.8s infinite"/>
+<rect class="tw" x="404" y="248" width="2" height="2" fill="#9fdcff" style="animation:tw 1.9s steps(3) -1.7s infinite"/>
+<rect class="tw" x="344" y="212" width="2" height="2" fill="#00b4ff" style="animation:tw 2.3s steps(3) -2.9s infinite"/>
+<rect class="tw" x="16" y="172" width="4" height="4" fill="#cfe9ff" style="animation:tw 2.6s steps(3) -0.1s infinite"/>
+<rect class="tw" x="336" y="264" width="4" height="4" fill="#00b4ff" style="animation:tw 2.8s steps(3) -0.3s infinite"/>
+<rect class="tw" x="940" y="116" width="2" height="2" fill="#ffffff" style="animation:tw 2.2s steps(3) -0.2s infinite"/>
+<rect class="tw" x="796" y="92" width="2" height="2" fill="#9fdcff" style="animation:tw 3.5s steps(3) -3.4s infinite"/>
+<rect class="tw" x="548" y="260" width="4" height="4" fill="#cfe9ff" style="animation:tw 3.3s steps(3) -0.4s infinite"/>
+<rect class="tw" x="56" y="92" width="4" height="4" fill="#ffffff" style="animation:tw 2.2s steps(3) -0.1s infinite"/>
+<rect class="tw" x="88" y="132" width="2" height="2" fill="#9fdcff" style="animation:tw 1.7s steps(3) -3.5s infinite"/>
+<rect class="tw" x="464" y="4" width="2" height="2" fill="#cfe9ff" style="animation:tw 3.8s steps(3) -1.1s infinite"/>
+<rect class="tw" x="132" y="20" width="4" height="4" fill="#9fdcff" style="animation:tw 3.8s steps(3) -3.9s infinite"/>
+<rect class="tw" x="268" y="24" width="2" height="2" fill="#9fdcff" style="animation:tw 3.8s steps(3) -2.5s infinite"/>
+<rect class="tw" x="296" y="228" width="4" height="4" fill="#9fdcff" style="animation:tw 2.2s steps(3) -3.2s infinite"/>
+<rect class="tw" x="256" y="16" width="2" height="2" fill="#ffffff" style="animation:tw 3.3s steps(3) -2.2s infinite"/>
+<rect class="tw" x="192" y="260" width="4" height="4" fill="#9fdcff" style="animation:tw 3.8s steps(3) -0.4s infinite"/>
+<rect class="tw" x="836" y="220" width="4" height="4" fill="#cfe9ff" style="animation:tw 3.9s steps(3) -1.2s infinite"/>
+<rect class="tw" x="220" y="116" width="2" height="2" fill="#9fdcff" style="animation:tw 3.6s steps(3) -2.8s infinite"/>
+<rect class="tw" x="648" y="68" width="4" height="4" fill="#00b4ff" style="animation:tw 4.0s steps(3) -3.3s infinite"/>
+<rect class="tw" x="12" y="36" width="2" height="2" fill="#cfe9ff" style="animation:tw 1.9s steps(3) -0.3s infinite"/>
+<rect class="tw" x="860" y="192" width="4" height="4" fill="#00b4ff" style="animation:tw 3.0s steps(3) -2.8s infinite"/>
+<rect class="tw" x="44" y="232" width="2" height="2" fill="#9fdcff" style="animation:tw 2.2s steps(3) -0.0s infinite"/>
+<g class="tw" fill="#ffffff" style="animation:tw 4.8s steps(3) -0.6s infinite"><rect x="950" y="30" width="4" height="20"/><rect x="942" y="38" width="20" height="4"/><rect x="948" y="36" width="8" height="8" fill="#9fdcff"/></g>
+<g class="tw" fill="#ffffff" style="animation:tw 2.6s steps(3) -3.9s infinite"><rect x="418" y="26" width="4" height="20"/><rect x="410" y="34" width="20" height="4"/><rect x="416" y="32" width="8" height="8" fill="#9fdcff"/></g>
+<g class="tw" fill="#ffffff" style="animation:tw 2.2s steps(3) -0.2s infinite"><rect x="162" y="214" width="4" height="20"/><rect x="154" y="222" width="20" height="4"/><rect x="160" y="220" width="8" height="8" fill="#9fdcff"/></g>
+<g class="tw" fill="#ffffff" style="animation:tw 4.7s steps(3) -3.5s infinite"><rect x="418" y="230" width="4" height="20"/><rect x="410" y="238" width="20" height="4"/><rect x="416" y="236" width="8" height="8" fill="#9fdcff"/></g>
+<g class="tw" fill="#ffffff" style="animation:tw 3.0s steps(3) -0.7s infinite"><rect x="98" y="86" width="4" height="20"/><rect x="90" y="94" width="20" height="4"/><rect x="96" y="92" width="8" height="8" fill="#9fdcff"/></g>
+<g class="tw" fill="#ffffff" style="animation:tw 2.1s steps(3) -2.7s infinite"><rect x="974" y="238" width="4" height="20"/><rect x="966" y="246" width="20" height="4"/><rect x="972" y="244" width="8" height="8" fill="#9fdcff"/></g>
+<g class="shoot"><rect x="0" y="0" width="70" height="3" fill="#9fdcff" opacity=".5"/><rect x="50" y="0" width="20" height="3" fill="#fff"/><rect x="66" y="-1" width="6" height="5" fill="#fff"/></g>
+<rect x="0" y="272" width="1000" height="8" fill="#00b4ff" opacity=".35"/>
+<text class="title" x="504" y="146" text-anchor="middle" fill="#05325e">notfuli._</text>
+<text class="title" x="500" y="142" text-anchor="middle" fill="#00b4ff" filter="url(#glow)">notfuli._</text>
+<text class="sub" x="500" y="192" text-anchor="middle" fill="#cfe9ff">CYBERSECURITY ENGINEERING STUDENT<tspan class="blink" fill="#00b4ff">_</tspan></text>
+</svg>
